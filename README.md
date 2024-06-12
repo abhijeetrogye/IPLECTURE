@@ -9,7 +9,9 @@ Social Media Links: Quick access to Instagram, LinkedIn, and GitHub profiles.
 
 # Contributors
 Thanks to the following people who have contributed to this project:
+
 Abhijeet Rogye -  Website Creator and Maintainer
+
 Dhiraj Chaudhari - Application Creator and Maintainer 
 
 # LinkedIn
