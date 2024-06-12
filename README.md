@@ -14,5 +14,7 @@ Dhiraj Chaudhari - Application Creator and Maintainer
 
 # LinkedIn
 Get Connected with us:
-Abhijeet - https://www.linkedin.com/in/abhijeetrogye/
-Dhiraj - https://www.linkedin.com/in/dhiraj-chaudhari-06ba10259/
+
+**[Abhijeet Rogye] - (https://www.linkedin.com/in/abhijeetrogye/)**
+
+**[Dhiraj Chaudhari] - (https://www.linkedin.com/in/dhiraj-chaudhari-06ba10259/)**
