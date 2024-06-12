@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
-        if (username === 'Class11' && password === '2522') {
+        if (username === 'changeme' && password === 'changeme') {
             loginContent.classList.add('hidden');
             mainContent.classList.remove('hidden');
             console.log("Login successful");
