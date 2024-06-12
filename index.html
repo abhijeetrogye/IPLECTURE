@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Lectures</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container relative">
+        <h1 class="text-4xl font-bold text-center mb-8">IP Lectures</h1>
+
+        <div id="loginContent" class="text-center">
+            <h2 class="text-2xl font-bold mb-4">Login</h2>
+            <form id="loginForm" class="flex flex-col items-center space-y-4">
+                <input type="text" id="username" class="input" placeholder="Username">
+                <div class="relative w-full">
+                    <input type="password" id="password" class="input pr-10" placeholder="Password">
+                </div>
+                <button type="submit" class="button">Login</button>
+            </form>
+        </div>
+
+        <div id="mainContent" class="hidden">
+            <button id="logout" class="logout-button absolute top-0 right-0 mt-4 mr-4 text-white">Logout</button>
+            <div class="flex flex-col items-center space-y-4 mt-10">
+                <a href="https://us05web.zoom.us/j/5552842053?pwd=VmlSN3ViWS96a2ZRWGdWOGdBblIyZz09" id="zoomLink" class="button">Join Zoom Meeting</a>
+                <a href="https://drive.google.com/drive/folders/1LQ80ggTxVTkWA-hiQCqE9y3rOW3uRqBU?usp=sharing" id="driveLink" class="button">Open Google Drive</a>
+            </div>
+
+            <div class="social-icons flex justify-center mt-8">
+                <a href="https://www.instagram.com/abhijeetrogye/" class="social-icon">
+                    <i class="fab fa-instagram text-2xl mx-2"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abhijeetrogye/" class="social-icon">
+                    <i class="fab fa-linkedin-in text-2xl mx-2"></i>
+                </a>
+                <a href="https://github.com/abhijeetrogye" class="social-icon">
+                    <i class="fab fa-github text-2xl mx-2"></i>
+                </a>
+            </div>
+        </div>
+
+        <p id="credit" class="text-center text-gray-400 mt-8">By abhijeetrogye</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
